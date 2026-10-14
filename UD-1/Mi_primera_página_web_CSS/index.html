@@ -1,55 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Tomás Vergara Morilla">
-    <link rel="stylesheet" href="index.css"> 
-    <title>Mi primera página web con CSS</title>
-</head>
-<body>
-    <header>
-        <h1> Esto es una página de ejemplo </h1>
-    </header>
 
-<!-- Cuerpo de la página -->
-    <main>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Tomás Vergara Morilla">
+            <link rel="stylesheet" href="index.css"> 
+            <title>Mi primera página web con CSS</title>
+    </head>
 
-        Títulos y párrafos
-        Un título de tercer nivel
-        Este es un párrafo de ejemplo. HTML permite estructurar el contenido de una página web mediante diferentes etiquetas.
-        
-        Podemos utilizar texto importante, texto enfatizado, texto resaltado y texto pequeño.
-        
-        También podemos utilizar texto eliminado texto añadido, texto inferior y texto superior.
-        
-        El siguiente fragmento de código Javascript
-        console.log("Hola")
-        sirve para mostrar un mensaje por la consola del navegador.
-        
-        Enlaces
-        Visita la página de Google.
-        
-        También podemos abrir un enlace en una pestaña nueva.
-        
-        Listas
-        Lista desordenada
-        HTML5
-        CSS3
-        JavaScript
-        Lista ordenada
-        Crear la estructura HTML
-        Añadir el contenido
-        Aplicar los estilos CSS
-        Lista de definiciones
-        HTML
-        Lenguaje utilizado para estructurar páginas web.
-        CSS
-        Lenguaje utilizado para definir la presentación de una página web.
-        © 2026 - Todos los derechos reservados.
+    <body>
+        <header>
+            <h1> Esto es una página de ejemplo </h1>
+        </header>
 
-    </main>
+    <!-- Cuerpo de la página -->
+        <main>
+    <!-- Títulos y párrafos -->
+    <section>  
+        <h2>Títulos y párrafos</h2>
+            <h3>Un título de tercer nivel</h3>
+                <p >Este es un párrafo de ejemplo. <abbr title="Hypertext Markup Language">HTML</abbr> permite estructurar el contenido de una página web mediante diferentes etiquetas.</p>
 
+                <p>Podemos utilizar <strong>texto importante</strong>, <em>texto enfatizado</em>, <mark>texto resaltado</mark> y <small>texto pequeño</small>.</p>
+
+                <p>También podemos utilizar <del>texto eliminado</del>, <ins>texto añadido</ins>, <sub>texto inferior</sub> y <sup>texto superior</sup> </p>
+
+                <p> El siguiente fragmento de código Javascript<br>
+                    <code>console.log("Hola")</code></br> 
+                    sirve para mostrar un mensaje por la consola del navegador.</p>
+    </section>
+    <!-- Enlaces -->
+    <h2> Enlaces </h2>
+        <p>Visita la <a href="https://www.google.com"> página de Google</a>. </p>
+        <p> También podemos abrir un enlace <a href="https://www.github.com" target="_blank">   en una pestaña nueva</a>. </p>
+        <section>  
+                <h2> Listas </h2>
+                    <h3> Listas desordenadas </h3>
+            <!-- Lista desordenada -->
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+            <h3> Listas ordenadas </h3>
+            <!-- Lista ordenada -->
+            <ol>
+                <li>Crear la estructura HTML</li>
+                <li>Añadir el contenido</li>
+                <li>Aplicar los estilos CSS</li>
+            </ol>
+
+            <!-- Lista de definiciones -->
+            <h3>Lista de definiciones</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Lenguaje utilizado para estructurar páginas web.</dd>
+                <dt>CSS</dt>
+                <dd>Lenguaje utilizado para definir la presentación de una página web.</dd>
+            </dl>
+        </section>
+
+    <section>  
+
+    </section>
+
+        </main>
+        <footer>
+            <p>© 2026 - Todos los derechos reservados.</p>
 
 </body>
 </html>

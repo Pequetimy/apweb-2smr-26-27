@@ -1,0 +1,22 @@
+/* Resets */
+* {
+
+    box-sizing: border-box;  
+    /* Asegura que el padding u los bordes no aumente el ancho/alto total de los elementos */
+}
+
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    display : flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding: 0 2rem; 2rem; 
+}
