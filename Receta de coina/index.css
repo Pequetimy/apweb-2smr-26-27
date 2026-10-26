@@ -1,0 +1,120 @@
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+header h1 {
+    margin: 0; /* Eliminamos el margen predeterminado del h1. */
+    text-align: center;
+}
+
+
+main {
+    width: calc(100% - 2rem);
+    max-width: 500px;
+
+    margin: 0 auto;
+    flex: 1;
+
+    padding: 2rem;
+    background-color: #FFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.imagen-Canelones {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+.lista-integrantes ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.tabla-exitos table {
+    border-collapse: collapse; /* Une los bordes de celdas contiguas. */
+    margin: 0 auto 20px;       /* Centra la tabla y deja espacio debajo. */
+}
+
+.enlace-web a {
+    color: #b13ce7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* :hover se aplica mientras el puntero está sobre el enlace. */
+.enlace-web a:hover {
+    color: #962bc0;
+}
+
+footer {
+    margin-top: 20px;
+    color: #7F8C8D;
+    text-align: center;
+    font-size: 14px;
+}
+
+.tabla-exitos table,
+.tabla-exitos th,
+.tabla-exitos td {
+    border: 1px solid #DDD;
+}
+
+.tabla-exitos th,
+.tabla-exitos td {
+    padding: 10px;
+}
+
+.tabla-exitos th {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+}
+
+.tabla-exitos td {
+    text-align: left;
+    white-space: nowrap; /* Impide los saltos de línea dentro de celdas.
+    Esto puede provocar desbordamientos en pantallas estrechas. */
+}
+
+
+.imagen-Canelones img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0; /* Eliminamos el margen predeterminado del h1. */
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 3px solid black;
+}
+
+th {
+    background-color: #81a6b5;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
